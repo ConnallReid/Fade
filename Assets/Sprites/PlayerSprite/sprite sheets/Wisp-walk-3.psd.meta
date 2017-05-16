@@ -1,0 +1,151 @@
+fileFormatVersion: 2
+guid: b26894ff2259b4c6cabc0f31bbc0792f
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Wisp-walk-3_0
+    21300002: Wisp-walk-3_1
+    21300004: Wisp-walk-3_2
+    21300006: Wisp-walk-3_3
+    21300008: Wisp-walk-3_4
+    21300010: Wisp-walk-3_5
+    21300012: Wisp-walk-3_6
+    21300014: Wisp-walk-3_7
+    21300016: Wisp-walk-3_8
+    21300018: Wisp-walk-3_9
+    21300020: Wisp-walk-3_10
+    21300022: Wisp-walk-3_12
+    21300024: Wisp-walk-3_14
+    21300026: Wisp-walk-3_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 500
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Wisp-walk-3_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 38
+        width: 250
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisp-walk-3_2
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 44
+        width: 250
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisp-walk-3_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 44
+        width: 250
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisp-walk-3_6
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 44
+        width: 250
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisp-walk-3_8
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 49
+        width: 250
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisp-walk-3_10
+      rect:
+        serializedVersion: 2
+        x: 2552
+        y: 49
+        width: 250
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisp-walk-3_12
+      rect:
+        serializedVersion: 2
+        x: 3042
+        y: 44
+        width: 250
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisp-walk-3_14
+      rect:
+        serializedVersion: 2
+        x: 3516
+        y: 54
+        width: 250
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Wisp-walk-3_15
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 54
+        width: 250
+        height: 430
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
