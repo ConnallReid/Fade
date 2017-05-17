@@ -11,12 +11,12 @@ TextureImporter:
     21300012: Enemy-walk_6
     21300014: Enemy-walk_7
     21300016: Enemy-walk_8
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -24,16 +24,17 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -44,15 +45,47 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 500
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Enemy-walk_0
+    - serializedVersion: 2
+      name: Enemy-walk_0
       rect:
         serializedVersion: 2
         x: 41
@@ -60,9 +93,12 @@ TextureImporter:
         width: 437
         height: 380
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemy-walk_1
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Enemy-walk_1
       rect:
         serializedVersion: 2
         x: 535
@@ -70,9 +106,12 @@ TextureImporter:
         width: 437
         height: 380
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemy-walk_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Enemy-walk_2
       rect:
         serializedVersion: 2
         x: 1014
@@ -80,9 +119,12 @@ TextureImporter:
         width: 437
         height: 380
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemy-walk_3
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Enemy-walk_3
       rect:
         serializedVersion: 2
         x: 1508
@@ -90,9 +132,12 @@ TextureImporter:
         width: 437
         height: 380
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemy-walk_4
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Enemy-walk_4
       rect:
         serializedVersion: 2
         x: 1992
@@ -100,9 +145,12 @@ TextureImporter:
         width: 437
         height: 380
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemy-walk_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Enemy-walk_5
       rect:
         serializedVersion: 2
         x: 2470
@@ -110,9 +158,12 @@ TextureImporter:
         width: 437
         height: 380
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemy-walk_6
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Enemy-walk_6
       rect:
         serializedVersion: 2
         x: 2954
@@ -120,9 +171,12 @@ TextureImporter:
         width: 437
         height: 380
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemy-walk_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Enemy-walk_7
       rect:
         serializedVersion: 2
         x: 3448
@@ -130,9 +184,12 @@ TextureImporter:
         width: 437
         height: 380
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Enemy-walk_8
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Enemy-walk_8
       rect:
         serializedVersion: 2
         x: 3937
@@ -140,7 +197,12 @@ TextureImporter:
         width: 437
         height: 380
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

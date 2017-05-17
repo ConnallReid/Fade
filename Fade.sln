@@ -1,14 +1,18 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{04E0385C-10AE-FEE8-E468-1617D2F3EF40}") = "Fade", "Assembly-CSharp.csproj", "{2BDCB85F-6E60-CA02-4676-AEE54E6A234E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{2BDCB85F-6E60-CA02-4676-AEE54E6A234E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDCB85F-6E60-CA02-4676-AEE54E6A234E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDCB85F-6E60-CA02-4676-AEE54E6A234E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDCB85F-6E60-CA02-4676-AEE54E6A234E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

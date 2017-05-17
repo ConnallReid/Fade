@@ -12,12 +12,12 @@ TextureImporter:
     21300014: Wisp-wall-jump-3_10
     21300016: Wisp-wall-jump-3_12
     21300018: Wisp-wall-jump-3_13
-  serializedVersion: 2
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 1
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
     mipMapFadeDistanceStart: 1
@@ -25,16 +25,17 @@ TextureImporter:
   bumpmap:
     convertToNormalMap: 0
     externalNormalMap: 0
-    heightScale: .25
+    heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
   seamlessCubemap: 0
   textureFormat: -1
   maxTextureSize: 1024
   textureSettings:
-    filterMode: 2
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -45,15 +46,47 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
-  spritePivot: {x: .5, y: .5}
+  spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 500
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 1024
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: Wisp-wall-jump-3_0
+    - serializedVersion: 2
+      name: Wisp-wall-jump-3_0
       rect:
         serializedVersion: 2
         x: 150
@@ -61,9 +94,12 @@ TextureImporter:
         width: 206
         height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wisp-wall-jump-3_2
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Wisp-wall-jump-3_2
       rect:
         serializedVersion: 2
         x: 650
@@ -71,9 +107,12 @@ TextureImporter:
         width: 206
         height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wisp-wall-jump-3_5
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Wisp-wall-jump-3_5
       rect:
         serializedVersion: 2
         x: 1151
@@ -81,9 +120,12 @@ TextureImporter:
         width: 206
         height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wisp-wall-jump-3_7
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Wisp-wall-jump-3_7
       rect:
         serializedVersion: 2
         x: 1656
@@ -91,9 +133,12 @@ TextureImporter:
         width: 206
         height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wisp-wall-jump-3_10
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Wisp-wall-jump-3_10
       rect:
         serializedVersion: 2
         x: 2145
@@ -101,9 +146,12 @@ TextureImporter:
         width: 206
         height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wisp-wall-jump-3_12
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Wisp-wall-jump-3_12
       rect:
         serializedVersion: 2
         x: 2642
@@ -111,9 +159,12 @@ TextureImporter:
         width: 206
         height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: Wisp-wall-jump-3_13
+      outline: []
+      tessellationDetail: -1
+    - serializedVersion: 2
+      name: Wisp-wall-jump-3_13
       rect:
         serializedVersion: 2
         x: 3118
@@ -121,7 +172,12 @@ TextureImporter:
         width: 206
         height: 400
       alignment: 0
-      pivot: {x: .5, y: .5}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: -1
+    outline: []
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
