@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class AbstractBehavior : MonoBehaviour {
 
 	public Buttons[] inputButtons;
+	public MonoBehaviour[] disableScripts;
 
 	protected InputState inputState;
 	protected Rigidbody2D body2d;
@@ -16,13 +17,10 @@ public abstract class AbstractBehavior : MonoBehaviour {
 		collisionState = GetComponent<CollisionState> ();
 	}
 
-	// Use this for initialization
-	void Start () {
+	protected virtual void ToggleScripts(bool value){
+		foreach (var script in disableScripts) {
+			script.enabled = value;
 		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+		}
 	}
 }
