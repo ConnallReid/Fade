@@ -60,11 +60,11 @@
      <Compile Include="Assets\Scripts\Behaviors\Walk.cs" />
      <Compile Include="Assets\Scripts\Behaviors\WallJump.cs" />
      <Compile Include="Assets\Scripts\Behaviors\WallSlide.cs" />
+     <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\Collision\Collectable.cs" />
      <Compile Include="Assets\Scripts\Collision\CollisionState.cs" />
      <Compile Include="Assets\Scripts\Collision\Enemy.cs" />
      <Compile Include="Assets\Scripts\Effects\DustEffect.cs" />
-     <Compile Include="Assets\Scripts\FadingPlatform.cs" />
      <Compile Include="Assets\Scripts\Inputs\InputManager.cs" />
      <Compile Include="Assets\Scripts\Inputs\InputState.cs" />
      <Compile Include="Assets\Scripts\Items\CannonBall.cs" />
@@ -72,7 +72,8 @@
      <Compile Include="Assets\Scripts\Items\PowerUpFlower.cs" />
      <Compile Include="Assets\Scripts\Managers\CannonManager.cs" />
      <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />
-     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
+     <Compile Include="Assets\Scripts\Platforms\FadingPlatform.cs" />
+     <Compile Include="Assets\Scripts\Platforms\MovingPlatform.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
