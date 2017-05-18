@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\Collision\CollisionState.cs" />
      <Compile Include="Assets\Scripts\Collision\Enemy.cs" />
      <Compile Include="Assets\Scripts\Effects\DustEffect.cs" />
+     <Compile Include="Assets\Scripts\FadingPlatform.cs" />
      <Compile Include="Assets\Scripts\Inputs\InputManager.cs" />
      <Compile Include="Assets\Scripts\Inputs\InputState.cs" />
      <Compile Include="Assets\Scripts\Items\CannonBall.cs" />
