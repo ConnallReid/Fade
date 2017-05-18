@@ -46,6 +46,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Ai\LookForward.cs" />
+     <Compile Include="Assets\Scripts\Ai\MoveForward.cs" />
      <Compile Include="Assets\Scripts\Behaviors\AbstractBehavior.cs" />
      <Compile Include="Assets\Scripts\Behaviors\Duck.cs" />
      <Compile Include="Assets\Scripts\Behaviors\Equip.cs" />
@@ -70,6 +72,7 @@
      <Compile Include="Assets\Scripts\Items\PowerUpFlower.cs" />
      <Compile Include="Assets\Scripts\Managers\CannonManager.cs" />
      <Compile Include="Assets\Scripts\Managers\PlayerManager.cs" />
+     <Compile Include="Assets\Scripts\MovingPlatform.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

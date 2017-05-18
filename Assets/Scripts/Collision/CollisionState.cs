@@ -7,6 +7,7 @@ public class CollisionState : MonoBehaviour {
 	public LayerMask collisionLayer;
 	public bool standing;
 	public bool onWall;
+	public bool onMovingPlatform;
 	public Vector2 rightPosition = Vector2.zero;
 	public Vector2 leftPosition = Vector2.zero;
 	public Vector2 bottomPosition = Vector2.zero;
@@ -36,6 +37,18 @@ public class CollisionState : MonoBehaviour {
 
 		onWall = Physics2D.OverlapCircle (pos, collisionRadius, collisionLayer);
 
+	}
+	void OnCollisionEnter2D(Collision2D other) {
+		if (other.transform.tag == "MovingPlatform") {
+			transform.parent = other.transform;
+		}
+	}
+	void OnCollisionExit2D(Collision2D other)
+	{
+		if (other.transform.tag == "MovingPlatform")
+		{
+			transform.parent = null;
+		}
 	}
 	void OnDrawGizmos(){
 

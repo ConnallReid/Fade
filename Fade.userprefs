@@ -1,13 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Walk.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Ai/LookForward.cs">
     <Files>
-      <File FileName="Assets/Scripts/SimpleMovement.cs" Line="26" Column="3" />
-      <File FileName="Assets/Scripts/InputManager.cs" Line="11" Column="3" />
-      <File FileName="Assets/Scripts/InputState.cs" Line="18" Column="29" />
-      <File FileName="Assets/Scripts/AbstractBehavior.cs" Line="15" Column="41" />
-      <File FileName="Assets/Scripts/FaceDirection.cs" Line="14" Column="2" />
-      <File FileName="Assets/Scripts/Walk.cs" Line="7" Column="25" />
+      <File FileName="Assets/Scripts/Items/CannonBall.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Inputs/InputManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Inputs/InputState.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Managers/CannonManager.cs" Line="58" Column="3" />
+      <File FileName="Assets/Scripts/FadingPlatform.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MovingPlatform.cs" Line="33" Column="1" />
+      <File FileName="Assets/Scripts/Collision/CollisionState.cs" Line="48" Column="45" />
+      <File FileName="Assets/Scripts/Ai/MoveForward.cs" Line="7" Column="24" />
+      <File FileName="Assets/Scripts/Ai/LookForward.cs" Line="14" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
